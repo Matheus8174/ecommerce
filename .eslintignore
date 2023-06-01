@@ -1,0 +1,6 @@
+dist
+build
+backend
+eslint-config
+ts-config
+zod

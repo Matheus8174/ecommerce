@@ -1,0 +1,4 @@
+{
+  "extends": "@ecommerce/ts-config/base.json",
+  "include": ["**/*.ts"]
+}

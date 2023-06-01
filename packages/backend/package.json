@@ -1,0 +1,35 @@
+{
+  "name": "@ecommerce/backend",
+  "version": "1.0.0",
+  "private": false,
+  "description": "",
+  "scripts": {
+    "dev": "tsup src/shared/infra/http/server.ts --watch --onSuccess 'node dist/server.js'",
+    "build": "tsup src/shared/infra/http/server.ts",
+    "lint": "eslint src/**/*.ts --fix"
+  },
+  "prisma": {
+    "schema": "./src/shared/infra/prisma/schema.prisma"
+  },
+  "devDependencies": {
+    "@ecommerce/eslint-config": "*",
+    "@ecommerce/ts-config": "*",
+    "@types/bcrypt": "^5.0.0",
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.2.5",
+    "prisma": "^4.14.1",
+    "tsup": "^6.7.0",
+    "tsyringe": "^4.7.0",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@ecommerce/zod": "*",
+    "@prisma/client": "^4.14.1",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "reflect-metadata": "^0.1.13"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "extends": "./base.json",
+  "compilerOptions": {
+    "paths": {
+      "@tests/*": ["tests/*"],
+      "@modules/*": ["modules/*"],
+      "@config/*": ["config/*"],
+      "@shared/*": ["shared/*"],
+      "@errors/*": ["errors/*"]
+    },
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
+  }
+}

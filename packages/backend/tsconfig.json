@@ -1,0 +1,7 @@
+{
+  "extends": "@ecommerce/ts-config/backend.json",
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "rootDir": ".",
+  }
+}

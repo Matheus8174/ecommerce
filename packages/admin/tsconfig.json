@@ -1,0 +1,4 @@
+{
+  "extends": "@ecommerce/ts-config/next.json",
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"]
+}
